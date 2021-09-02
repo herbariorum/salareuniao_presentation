@@ -35,7 +35,7 @@ export class ListRoomComponent implements OnInit {
     );
   }
 
-  roomDetails(id:number){
+  detailsRoom(id:number){
     this.router.navigate(['details', id]);
   }
 

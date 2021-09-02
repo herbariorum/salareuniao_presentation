@@ -26,7 +26,7 @@ export class UpdateRoomComponent implements OnInit {
         console.log(data);
         this.room = data;
       },
-        error => console.log(error);
+        error => console.log(error)
       );
   }
 
@@ -43,7 +43,7 @@ export class UpdateRoomComponent implements OnInit {
     this.updateRoom();
   }
 
-  gotList(){
+  gotoList(){
     this.router.navigate(['/rooms']);
   }
 

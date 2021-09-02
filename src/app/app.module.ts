@@ -7,6 +7,8 @@ import { CreateRoomComponent } from './create-room/create-room.component';
 import { DetailRoomComponent } from './detail-room/detail-room.component';
 import { ListRoomComponent } from './list-room/list-room.component';
 import { UpdateRoomComponent } from './update-room/update-room.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { UpdateRoomComponent } from './update-room/update-room.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule, 
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
